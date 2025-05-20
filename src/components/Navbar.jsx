@@ -5,9 +5,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     document.body.style.overflow = menuOpen ? "" : "wrap";
   }, [menuOpen]);
   return (
-    <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16 ">
+    <nav className="fixed top-0 w-full  z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
+      <div className="max-w-screen ml-10 mr-10 px-5">
+        <div className="flex justify-between w-full items-center  h-16 ">
           <a href="#home" className="font-mono text-xl font-bold text-white">
             {" "}
             Usman<span className="text-blue-500">.Frontend</span><br/><span className="text-yellow-400">-Developer</span>{" "}
